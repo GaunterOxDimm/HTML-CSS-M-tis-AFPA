@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!-- STARTING MAIN ELEMENT -->
+<html>
+  <head>
+    <title>Formulaires standards</title>
+  </head>
+  <body>
+    <h1>Nous lançons une grande enquête sur les anciens stagiaires</h1>
+    <h3>Merci de nous répondre</h3>
+    <br />
+    <form method="get" action="http://www.afpa.fr">
+      <p>
+        <input type="text" name="le_nom" />
+        Votre nom
+      </p>
+      <p>
+        <input type="text" name="email" />
+        Votre prénom
+        <!-- HTML5 ? -->
+      </p>
+      <p>
+        <input type="text" name="le_nom" />
+        Votre date de naissance
+      </p>
+      <p>
+        <input type="text" name="le_nom" />
+        Votre adresse
+      </p>
+      <p>
+        <input type="text" name="le_nom" />
+        Votre ville
+      </p>
+      <p>
+        <input type="text" name="le_nom" />
+        Votre code postal
+      </p>
+      <p>
+        <input type="text" name="le_nom" />
+        Votre email
+      </p>
+      <p>
+        <input type="radio" name="media" value="Cd" checked="" />
+        Vous êtes un homme
+        <input type="radio" name="media" value="Cd" checked="" />
+        Vous êtes une femme
+      </p>
+      <select name="choix1" id="choose1">
+        <option value="Développeur" selected="selected">Développeur</option>
+        <option value="Analyste">Analyste</option>
+        <option value="Chef de projet">Chef de projet</option>
+        <option value="Autre">Autre</option>
+      </select>
+      <p>
+        <input type="text" name="Précisez" />
+        Si vous avez répondu "autre", précisez.
+      </p>
+      </p>
+      <select name="choix2" id="choose2">
+        <option value="< 1000 €" selected="selected">< 1000 €</option>
+        <option value="> 1000 €">> 1000 € et < 1500 €</option>
+        <option value="> 1500 € et < 2000 €">> 1500 € et < 2000 €</option>
+        <option value="> 2000 €">> 2000 €</option>
+      </select>
+      <p>
+        <input type="text" name="Précisez" />
+        En quelle année avez-vous suivi le stage AFPA?
+      </p>
+      <textarea name="comments" id="comment" cols="30" rows="5">commentaires</textarea>
+      <h2>Merci d'avoir répondu au questionnaire</h2>
+      <input type="submit" value="Validez">
+      <input type="submit" value="Annulez">
+    </form>
+  </body>
+</html>
